@@ -1,0 +1,170 @@
+
+
+/* everything */
+
+*{
+    box-sizing: border-box;
+    padding:0px 10px 10px 10px;
+    background-image: url("mountain_background.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.headings{
+
+    color: black;
+    font-size: 50px;
+    font-family:'Roboto Mono', monospace;
+}
+
+
+/* ############ Front page ########## */
+
+/* h1 {
+    background-color:darkorchid;
+    color: rgb(8, 130, 87); 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    size:auto;
+    height: 200px;
+    font-family:'Roboto Mono', monospace;
+} */
+
+
+
+
+
+#test {
+    color:blueviolet;
+    background: black;
+    border: solid green 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+h1 {
+    /* color:blue; */
+    /* margin-left: 100px; */
+    padding-bottom: 1px;
+    padding top: 1px;
+    margin-left:25%;
+    margin-right:25%;
+    /* text-align: center; */
+    /* height: 100px; */
+    /* width: 50%; */
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background: black;
+    font-family:'Roboto Mono', monospace;
+    font-size: 50px;
+    /* margin:0px,0px,0px,0px; */
+}  
+
+#under_title_quote {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-bottom: 0%;
+    background: black;
+
+}
+
+
+#drone_pic{
+    text-align: center;
+    padding: 500px, 1000px, 500px, 500px;
+    }
+
+.page_para {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(255,255,255,0.5); 
+}
+
+.pg1_columns{
+    color:whitesmoke;
+    display:flex;
+    flex-direction:row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        .child1 {
+            width: 50%;
+            height: 100vh;
+            background-color: green;
+            text-align: right;
+            color: white;
+            font-weight: bold;
+        }
+
+        .child2 {
+            width: 50%;
+            color: green;
+            height: 100vh;
+            font-weight: bold;
+        }
+}
+
+
+
+/* This is how to targhet a HTML element and change colour and size */
+
+/* elementtag {
+    property: value;
+    property: value;
+} */
+
+#nav {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* background-color: turquoise; */
+    height: 0px;
+    font-size: 20px;
+    top: 10px;
+    height: 35px;
+    border: 5px solid green;
+    background: black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+#nav a { 
+    color: yellow;
+    background: black;
+    text-decoration: none;
+}
+
+
+
+#nav a:hover {
+    color: red
+}
+
+
+/* Resources page */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+#toolkit{
+    margin: 40px 80px 20px 10px;
+    box-sizing: border-box; 
+    padding: 25px 50px 75px 100px;
+}
+
+
+
